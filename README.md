@@ -1,5 +1,5 @@
 
-# A pytorch implemention of the ECCV2022 paper <a href="https://arxiv.org/pdf/2111.10659.pdf">Are vision transformers robust to patch perturbations?</a>
+# This is a pytorch implemention of the ECCV2022 paper <a href="https://arxiv.org/pdf/2111.10659.pdf">Are vision transformers robust to patch perturbations?</a>
 
 This work observed that ViTs are more robust to naturally corrupted patches than CNNs, whereas they are more vulnerable to adversarial patches. The reason behind this is as follows:
 
