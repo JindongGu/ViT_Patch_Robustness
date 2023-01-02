@@ -1,5 +1,5 @@
 
-# This is a pytorch implemention of the following ECCV2022 paper <a href="https://arxiv.org/pdf/2111.10659.pdf">Are vision transformers robust to patch perturbations?</a>
+# A pytorch implemention of the ECCV2022 paper <a href="https://arxiv.org/pdf/2111.10659.pdf">Are vision transformers robust to patch perturbations?</a>
 
 This work observed that ViTs are more robust to naturally corrupted patches than CNNs, whereas they are more vulnerable to adversarial patches. The reason behind this is as follows:
 
@@ -10,7 +10,7 @@ This work observed that ViTs are more robust to naturally corrupted patches than
 python main.py --pert_type patch_corrupt
 ```
 The model attention of an input with natural patch corruption is visualized as follows:
-![Natural Patch Corruption](ViT_Patch_Robustness/src/imgs/Attention_vis_patch_corrupt.jpg)
+![Natural Patch Corruption](src/imgs/Attention_vis_patch_corrupt.jpg)
 
 2) When ViTs are attacked by an adversary, the attention mechanism can be easily fooled to focus more on the adversarially perturbed patches and cause a mistake.
 
@@ -18,7 +18,7 @@ The model attention of an input with natural patch corruption is visualized as f
 python main.py --pert_type patch_attack
 ```
 The model attention of an input with natural patch corruption is visualized as follows:
-![Natural Patch Corruption](ViT_Patch_Robustness/src/imgs/Attention_vis_patch_attack.jpg)
+![Natural Patch Corruption](src/imgs/Attention_vis_patch_attack.jpg)
 
 
 If this repo is helpful for you, please cite our work.
