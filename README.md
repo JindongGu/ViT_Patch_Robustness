@@ -1,7 +1,7 @@
 
 # This is a pytorch implemention of the ECCV2022 paper <br/><a href="https://arxiv.org/pdf/2111.10659.pdf">Are vision transformers robust to patch perturbations?</a>
 
-This work observed that ViTs are more robust to naturally corrupted patches than CNNs, whereas they are more vulnerable to adversarial patches. The reason behind this is as follows:
+This work discovered that ViTs are more robust to naturally corrupted patches than CNNs, whereas they are more vulnerable to adversarial patches. The reason behind this is as follows:
 
 
 1) The attention mechanism can help improve the robustness of Vision Transformer by effectively ignoring natural corrupted patches. 
